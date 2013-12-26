@@ -59,9 +59,9 @@ node default {
   include nginx
 
   # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
+  #if $::root_encrypted == 'no' {
+  #  fail('Please enable full disk encryption and try again')
+  #}
 
   # node versions
   include nodejs::v0_6
@@ -79,9 +79,27 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'the_silver_searcher',
+      'tmux',
+      'ctags',
+      'tree',
+      'wget'
     ]:
   }
+
+  # My stuff
+  include chrome::canary
+  include iterm2::dev
+  include alfred
+  include skype
+  include virtualbox
+  include vagrant
+  include hipchat
+  include onepassword
+  include dropbox
+  include mplayerx
+  include spotify
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

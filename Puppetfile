@@ -55,3 +55,14 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "chrome",        "1.1.2"
+github "iterm2",        "1.0.6"
+github "alfred",        "1.1.7"
+github "skype",         "1.0.8"
+github "virtualbox",     "1.0.10"
+github "vagrant",       "3.0.2"
+github "hipchat",       "1.1.0"
+github "onepassword",   "1.1.0"
+github "dropbox",       "1.2.0"
+github "mplayerx",      "1.0.1"
+github "spotify",       "1.0.1"
