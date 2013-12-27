@@ -6,8 +6,7 @@ class people::trq::dotfiles {
   }
 
   exec { "install_vim_plugins":
-    command => "vim +BundleInstall +qall",
-    path    => "/opt/boxen/homebrew/bin",
+    command => "/opt/boxen/homebrew/bin/vim +BundleInstall +qall 2&> /dev/null",
     require => Package["vim"]
   }
 
@@ -54,7 +53,7 @@ class people::trq::dotfiles {
     require => Repository["dotfiles_repo"]
   }
 
-  file { "/Users/${::boxen_user}/.com.googlecode.iterm2.plist":
+  file { "/Users/${::boxen_user}/Library/Preferences/com.googlecode.iterm2.plist":
     ensure => 'link',
     target  => "/Users/${::boxen_user}/etc/dotfiles/mbp.com.googlecode.iterm2.plist",
     require => Repository["dotfiles_repo"]
