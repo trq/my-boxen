@@ -2,20 +2,20 @@ class people::trq::dotfiles {
   repository { "dotfiles_repo":
     path => "/Users/${::boxen_user}/etc/dotfiles",
     source => 'trq/dotfiles',
-    provider => 'git',
-    notify => Exec['install_vim_plugins']
+    provider => 'git'
   }
 
   exec { "install_vim_plugins":
     command => "vim +BundleInstall +qall",
     path    => "/opt/boxen/homebrew/bin",
-    require => [Repository["dotfiles_repo"], Package["vim"]]
+    require => Package["vim"]
   }
 
   file { "/Users/${::boxen_user}/.vimrc":
     ensure => 'link',
     target  => "/Users/${::boxen_user}/etc/dotfiles/vimrc",
-    require => Repository["dotfiles_repo"]
+    require => Repository["dotfiles_repo"],
+    notify => Exec['install_vim_plugins']
   }
 
   file { "/Users/${::boxen_user}/.vim":
