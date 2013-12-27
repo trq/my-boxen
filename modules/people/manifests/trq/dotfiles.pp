@@ -49,7 +49,7 @@ class people::trq::dotfiles {
 
   file { "/Users/${::boxen_user}/.tmux.conf":
     ensure => 'link',
-    target  => "/Users/${::boxen_user}/etc/dotfiles/.tmux.conf",
+    target  => "/Users/${::boxen_user}/etc/dotfiles/tmux.conf",
     require => Repository["dotfiles_repo"]
   }
 
