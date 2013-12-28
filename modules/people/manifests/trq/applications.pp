@@ -6,7 +6,8 @@ class people::trq::applications {
       'ctags',
       'tree',
       'wget',
-      'vim'
+      'vim',
+      'mobile-shell'
     ]:
   }
 
