@@ -21,4 +21,5 @@ class people::trq::applications {
   include dropbox
   include mplayerx
   include spotify
+  include openoffice
 }

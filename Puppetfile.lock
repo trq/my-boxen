@@ -84,6 +84,11 @@ GITHUBTARBALL
     onepassword (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-openoffice
+  specs:
+    openoffice (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -167,6 +172,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   onepassword (= 1.1.0)
+  openoffice (= 1.2.0)
   openssl (= 1.0.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
