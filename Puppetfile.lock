@@ -158,6 +158,11 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: trq/puppet-vagrantbindfs
+  specs:
+    vagrantbindfs (1.0.2)
+
 DEPENDENCIES
   alfred (= 1.1.7)
   boxen (= 3.3.4)
@@ -189,6 +194,7 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   vagrant (>= 0)
+  vagrantbindfs (= 1.0.2)
   virtualbox (= 1.0.10)
   xquartz (= 1.1.0)
 
