@@ -23,6 +23,7 @@ class people::trq::applications {
   include mplayerx
   include spotify
   include openoffice
+  include gimp
 
   vagrant::plugin { 'vagrant-bindfs': }
 }
