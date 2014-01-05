@@ -17,11 +17,12 @@ class people::trq::applications {
   include skype
   include virtualbox
   include vagrant
-  include vagrantbindfs
   include hipchat
   include onepassword
   include dropbox
   include mplayerx
   include spotify
   include openoffice
+
+  vagrant::plugin { 'vagrant-bindfs': }
 }
