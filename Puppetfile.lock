@@ -158,10 +158,16 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: trq/puppet-dash
+  specs:
+    dash (1.0.1)
+
 DEPENDENCIES
   alfred (= 1.1.7)
   boxen (= 3.3.4)
   chrome (= 1.1.2)
+  dash (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.2.0)
   foreman (= 1.0.0)

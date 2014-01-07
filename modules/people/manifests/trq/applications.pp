@@ -24,6 +24,7 @@ class people::trq::applications {
   include spotify
   include openoffice
   include gimp
+  include dash
 
   vagrant::plugin { 'vagrant-bindfs': }
 }
