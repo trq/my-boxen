@@ -1,8 +1,8 @@
 class people::trq::php {
   require homebrew
 
-  homebrew::tap { "homebrew/dupes": }
-  homebrew::tap { "josegonzalez/homebrew-php": }
+  #homebrew::tap { "homebrew/dupes": }
+  #homebrew::tap { "josegonzalez/homebrew-php": }
 
   $packages = [
     "php55",
