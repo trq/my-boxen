@@ -11,7 +11,7 @@ class people::trq::python {
   #}
 
   python::package { 'docopt':
-    python_version => '2.7.3'
+      python_version => '2.7.3'
   }
 
   # Set the global version of Python

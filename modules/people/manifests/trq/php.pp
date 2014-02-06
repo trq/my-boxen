@@ -8,6 +8,7 @@ class people::trq::php {
     "php55",
     "php55-mcrypt",
     "php55-xdebug",
+    "php55-intl",
     "composer"
   ]
 
