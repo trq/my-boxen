@@ -8,7 +8,8 @@ class people::trq::applications {
       'wget',
       'vim',
       'mobile-shell',
-      'autojump'
+      'autojump',
+      'lua'
     ]:
   }
 
