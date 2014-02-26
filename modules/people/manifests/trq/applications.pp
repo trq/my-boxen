@@ -7,7 +7,8 @@ class people::trq::applications {
       'tree',
       'wget',
       'vim',
-      'mobile-shell'
+      'mobile-shell',
+      'autojump'
     ]:
   }
 

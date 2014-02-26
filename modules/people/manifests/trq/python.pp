@@ -18,6 +18,14 @@ class people::trq::python {
     'gitpython': python_version => '2.7.6',
   }
 
+  python::package {
+    'requests': python_version => '2.7.6',
+  }
+
+  python::package {
+    'sphinx': python_version => '2.7.6',
+  }
+
   # Set the global version of Python
   class { 'python::global': version => '2.7.6' }
 
