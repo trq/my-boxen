@@ -61,7 +61,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
-    iterm2 (1.0.6)
+    iterm2 (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-mplayerx
@@ -131,12 +131,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.0.3)
+    vagrant (3.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.10)
+    virtualbox (1.0.11)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -184,7 +184,7 @@ DEPENDENCIES
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
-  iterm2 (= 1.0.6)
+  iterm2 (= 1.0.9)
   mplayerx (= 1.0.1)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
@@ -200,7 +200,7 @@ DEPENDENCIES
   spotify (= 1.0.1)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  vagrant (= 3.0.3)
-  virtualbox (= 1.0.10)
+  vagrant (= 3.0.7)
+  virtualbox (= 1.0.11)
   xquartz (= 1.1.0)
 
